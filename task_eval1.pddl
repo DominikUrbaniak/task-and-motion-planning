@@ -1,0 +1,5 @@
+(define (problem goal-a)
+(:domain eval_1)
+(:objects cube1 cube2 cube3 cube4 cube5 cube6 cube7 cube8 place1 place2 place3 place4 place5 place6 place7 place8 place9)
+(:init (on place4 air) (on place1 cube1) (on place2 cube2) (on place3 cube3) (on place9 cube4) (on place5 cube5) (on place6 cube6) (on place7 cube7) (on place8 cube8))
+(:goal (and (on place9 cube1) (on place8 cube2) (on place7 cube3))))
